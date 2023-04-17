@@ -13,6 +13,5 @@ function changeBorderColor(event) {
     else {
         inputEl.classList.add('invalid');
         inputEl.classList.remove('valid');
-
     }
 }
