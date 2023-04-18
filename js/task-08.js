@@ -10,7 +10,7 @@ function submitDataOnForm(event) {
     } = event.currentTarget;
 
     if (email.value === '' || password.value === '') {
-        return console.log('Please fill in all fields!');
+        return alert('Please fill in all fields!');
     };
     const formData = {
         email: email.value,
